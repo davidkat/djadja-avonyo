@@ -12,8 +12,4 @@ public class AccueilController {
 		return "accueil";
 	}
 	
-	@RequestMapping(value="/testl")
-	public String test(Model model) {
-		return "accueil";
-	}
 }
